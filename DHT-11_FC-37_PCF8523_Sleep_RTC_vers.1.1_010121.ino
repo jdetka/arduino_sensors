@@ -171,7 +171,7 @@ now = rtc.now();
   logfile.print(DHT.temperature);
   logfile.print(","); 
   logfile.print(DHT.humidity);
-  logfile.println();
+  logfile.print(",");
 
   Serial.print(",");
   Serial.print(DHT.temperature);
